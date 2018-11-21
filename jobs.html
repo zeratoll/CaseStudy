@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>JavaJam Coffee House</title>
+  <meta charset=“utf-8”>
+  <link rel = "stylesheet" href = "styles.css">
+  <script type = "text/javascript"  src = "jobsvalidation.js" ></script>
+</head>
+<body>  
+<div id="wrapper">
+  <header>
+  </header>
+  <div id="leftcolumn">
+    <nav>
+	 <ul>
+      <li><a href="index.html">Home</a></li>
+	  <li><a href="menu.php">Menu</a></li>
+      <li><a href="music.html">Music</a></li>
+      <li><a href="jobs.html">Jobs</a></li>
+      <li><a href="update.php">Update</a></li>
+      <li><a href="report.php">Report</a></li>		  
+	 </ul>
+    </nav>
+  </div>
+  <div id = "centercolumn">
+	<h1>Jobs at JavaJam</h1>
+    <p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk *</p>
+	<form action="show_get.php" method="get"> 
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp*Name: <input type="text" name="CustName"  id="CustName" size=30 required><br><br>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp*Email: <input type="email" name="CustEmail"  id="CustEmail" size=30 required><br><br>
+	&nbsp&nbsp&nbsp&nbspStart Date: <input type="date" name="CustDate"  id="CustDate" size=30><br><br>
+	*Experience: <textarea type="textarea" name="CustExperience"  id="CustExperience" rows="2" cols="30" required></textarea><br><br>
+    <input type="submit" id="btnSubmit" value="Apply Now"> 
+    </form>
+	<script type = "text/javascript"  src = "jobshandler.js" ></script>	
+  </div>
+  <footer>
+    <small><i>Copyright &copy 2014 JavaJam Coffee House<br><a href = "mailto:yiinlih@ong.com">yiinlih@ong.com</a>
+	</i></small>
+  </footer>
+</div>
+
+</body>
+</html>

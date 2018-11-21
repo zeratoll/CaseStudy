@@ -1,0 +1,109 @@
+  #wrapper { background-color: #F1E8B0; 
+           color: #000066;
+           width: 80%;
+		   margin: auto;
+           min-width:940px;
+           box-shadow: 5px 5px 5px black; /*right; top bottom; blur*/
+  } 
+  #leftcolumn { float: left;
+	          width: 150px;
+			  text-align: center;
+                      line-height: 1.6;	
+              font-family: arial;				  
+  }
+  #centercolumn { margin-left: 155px;
+               background-color: #E8D882;
+               color: #000000;
+			   padding: 1px 10px 20px 20px;
+			   font-family: arial;
+                           font-weight: bold;
+  } 
+  td {
+    padding:0;
+    border-style:solid;
+    border-color: #E8D882;
+    border-width:0px 1px;
+  }
+
+  p {
+    font-weight: bold;
+  }
+  
+  #musicpic { width:120px;
+              height:100px; 
+			  margin:20px 60px 20px 20px;
+	          float: left;
+  }
+  
+  #musicplayerpic { float: bottom;
+                    width: 250px;
+					height: 30px;
+	  
+  }
+  
+  .quan {text-align: center;
+  }
+  
+  header { background-color: #CCAA66;
+        color: #CCAA66; 
+        font-size: 150%; 
+        padding: 10px 10px 10px 155px;
+		background-image: url(javalogo.gif); 
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 130px;
+  }
+  
+  nav ul { list-style-type: none; 
+         padding: 10px;
+  }
+  
+
+  nav a { text-decoration: none; 
+        padding: 10px;
+        font-weight: bold;
+		font-family: arial;
+		color: #000000;
+  }
+  
+  footer {font-size:70%;
+         background-color: #CCAA66;
+         text-align: center;
+		 clear: right;
+         padding-bottom:20px;
+  }
+  
+  table {
+    margin: auto;
+	border: 0px solid #eaeaea;
+	width: 600px;
+	border-spacing:0;
+  }
+  
+  td, th{
+    padding: 5px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+  }
+  tr:nth-of-type(odd) {
+    background-color: #E8D882;	
+  }
+  tr:nth-of-type(even) {
+    background-color: #CCAA66;
+  }
+
+  a:link {
+    color: #A0522D;
+  }
+  /* visited link */
+  a:visited {
+    color: #cc9966;
+  }
+  /* mouse over link */
+  a:hover {
+    color: brown;
+  }
+  /* selected link */
+  a:active {
+    color: black;
+  }
